@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Adca";
+    src: url("./font/Adca.ttf");
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-image: url("images/manufacture1.jpg");
+    background-size: cover;
+}
+
+header {
+    overflow: hidden;
+    background-color: #080f0f;
+    position: relative;
+    top: 0;
+    margin-left: 0;
+    padding: 5px;
+    height: 45%;
+    width: 100%
+}
+
+header h1 {
+    font-family: 'Adca';
+    font-size: 5em;
+    color: #73808c
+}
+
+main {
+    position: relative;
+    padding: 0;
+    height: 50%;
+    color: #ede9e5;
+    background-color: rgba(67,57,47, .9);
+}
+
+p {
+    font-size: 2em
+}
+
+footer {
+    height: 5%
+}
